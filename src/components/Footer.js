@@ -81,7 +81,7 @@ const Footer = class extends React.Component {
                     style={{ width: '1em', height: '1em' }}
                   />
                 </a>
-                <a title="twitter" href="https://twitter.com">
+                <a title="twitter" href="https://twitter.com/thisistakanori">
                   <img
                     className="fas fa-lg"
                     src={twitter}
@@ -105,6 +105,7 @@ const Footer = class extends React.Component {
                 </a>
               </div>
             </div>
+            <p>©︎2019. Takanori Fukuyama</p>
           </div>
         </div>
       </footer>
