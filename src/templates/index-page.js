@@ -6,8 +6,8 @@ import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 
-require("prismjs/themes/prism-solarizedlight.css")
-import 'prismjs/plugins/line-numbers/prism-line-numbers.css';
+require("prismjs/themes/prism-twilight.css")
+
 
 
 export const IndexPageTemplate = ({
