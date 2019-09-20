@@ -6,8 +6,7 @@ import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 
-require("prismjs/themes/prism-twilight.css")
-
+import "prismjs/themes/prism-okaidia.css"
 
 
 export const IndexPageTemplate = ({
