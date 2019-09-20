@@ -12,6 +12,12 @@ image: /img/download.png
 ---
 [こちらの記事](https://shibe97.com/blog/gatsby-netlify-cms/)を参考にして、とりあえずOGP設定とworkspaceを設定してみた！
 
+あと、そのままだとコードが見づらいので
+
+ `gatsby-remark-prismjs`
+
+というプラグインを入れてみる。Themeは[Prismjs](https://prismjs.com/)から選べばいい。
+
 - - -
 
 ソースコード
