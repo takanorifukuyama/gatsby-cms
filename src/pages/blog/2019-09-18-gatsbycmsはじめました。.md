@@ -27,7 +27,7 @@ image: /img/download.png
 
 src/static/admin/config.yml
 
-```yaml
+```yaml:title=src/static/admin/config.yml
 ...
 
 collections:
@@ -94,7 +94,7 @@ const Meta = ({ post }) => {
 
 ...
 ```
-
+---
 シンタックスハイライトの設定
 ```
 module.export = {
