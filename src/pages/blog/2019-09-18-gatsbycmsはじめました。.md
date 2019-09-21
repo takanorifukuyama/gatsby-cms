@@ -94,3 +94,28 @@ const Meta = ({ post }) => {
 
 ...
 ```
+
+シンタックスハイライトの設定
+```
+module.export = {
+  ....
+  plugins:[
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          {
+            resolve: 'gatsby-remark-prismjs',
+            options: {
+              classPrefix: "language-",
+              inlineCodeMarker: null,
+              aliases: {},
+              showLineNumbers: true,
+              noInlineHighlight: false,
+            },
+          },
+        ],
+      }
+    }
+  ],
+}
