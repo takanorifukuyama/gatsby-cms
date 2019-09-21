@@ -12,6 +12,12 @@ image: /img/download.png
 ---
 [こちらの記事](https://shibe97.com/blog/gatsby-netlify-cms/)を参考にして、とりあえずOGP設定とworkspaceを設定してみた！
 
+あと、そのままだとコードが見づらいので
+
+ `gatsby-remark-prismjs`
+
+というプラグインを入れてみる。Themeは[Prismjs](https://prismjs.com/)から選べばいい。
+
 - - -
 
 ソースコード
@@ -21,7 +27,7 @@ image: /img/download.png
 
 src/static/admin/config.yml
 
-```yaml
+```yaml:title=src/static/admin/config.yml
 ...
 
 collections:
@@ -88,3 +94,28 @@ const Meta = ({ post }) => {
 
 ...
 ```
+---
+シンタックスハイライトの設定
+```
+module.export = {
+  ....
+  plugins:[
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          {
+            resolve: 'gatsby-remark-prismjs',
+            options: {
+              classPrefix: "language-",
+              inlineCodeMarker: null,
+              aliases: {},
+              showLineNumbers: true,
+              noInlineHighlight: false,
+            },
+          },
+        ],
+      }
+    }
+  ],
+}
