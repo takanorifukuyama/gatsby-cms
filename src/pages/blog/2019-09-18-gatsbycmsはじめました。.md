@@ -96,7 +96,7 @@ const Meta = ({ post }) => {
 ```
 ---
 シンタックスハイライトの設定
-```
+```javascript
 module.export = {
   ....
   plugins:[
