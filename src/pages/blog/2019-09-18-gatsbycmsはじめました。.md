@@ -53,7 +53,7 @@ collections:
 
 /static/templates/blog-post.js
 
-```jsx
+```javascript
 ...
 
 const BlogPost = ({ data }) => {
