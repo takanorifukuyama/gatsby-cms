@@ -53,7 +53,7 @@ collections:
 
 /static/templates/blog-post.js
 
-```jsx
+```javascript
 ...
 
 const BlogPost = ({ data }) => {
@@ -96,7 +96,7 @@ const Meta = ({ post }) => {
 ```
 ---
 シンタックスハイライトの設定
-```
+```javascript
 module.export = {
   ....
   plugins:[
